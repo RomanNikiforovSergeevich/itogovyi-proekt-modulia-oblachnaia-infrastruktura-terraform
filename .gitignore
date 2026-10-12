@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+.terraform*
+!.terraformrc
+!.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Секреты и tfvars
+terraform.tfvars
+*.auto.tfvars
+*.tfvars
+!*.tfvars.example
+!*.tfvars_example
+
+# Артефакты
+tfplan
+tflint.txt
+checkov.txt
+backend.hcl
